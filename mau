@@ -1,0 +1,28 @@
+import os
+import random
+import sys
+import time
+os.system("clear")
+def mengetik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.3)
+mengetik("Terima kasih sayang, waktu berjalan dan kamu tetap memilihku menjadi seseorang terspesial di hidupmu. Aku akan menjaga cinta kita hingga waktu yang memisahkan")
+
+print ("")
+
+def mengetik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.3)
+mengetik("Terima kasih sudah menerima segala kelebihan dan kekuranganku")
+
+print ("")
+
+pilih = raw_input("tap enter untuk lanjut : ")
+if pilih =="":
+	os.system("clear")
+	print "tidak ada pilihan??, iya terimakasih"
+	os.system("python2 tembak")

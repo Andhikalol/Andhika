@@ -1,0 +1,40 @@
+import os
+import random
+import sys
+import time
+os.system("clear")
+def mengetik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.3)
+mengetik("1.saya tidak akan pernah memutuskan pacar saya")
+
+def mengetik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.3)
+mengetik("2.saya akan menjadikan ratu untuk orang yang menerima saya")
+
+def mengetik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.3)
+mengetik("3.saya akan mengalah")
+
+def mengetik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.3)
+mengetik("4.jika menurut saya anda tidak menghargai saya ,akan merubah sifat saya")
+
+print ("")
+
+pilih = raw_input("tap enter untuk lanjut : ")
+if pilih =="":
+	os.system("clear")
+	print "tidak ada pilihan??, iya terimakasih"
+	os.system("python2 tembak")

@@ -1,0 +1,13 @@
+import os
+import random
+import sys
+import time
+os.system("clear")
+def mengetik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.3)
+mengetik("nggak bisa wleee")
+
+os.system("python2 tembak")

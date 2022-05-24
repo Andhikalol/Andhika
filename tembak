@@ -1,0 +1,38 @@
+import os
+import sys
+os.system("clear")
+def main():
+	os.system("figlet LOVE YOU")
+main()
+print "     maukah kamu jadi pacarku??"
+def menu():
+     print ("""
+     >maulah masa nggak kiw kiw<
+	1.prinsip
+	2.mau
+	3.nggak
+	0.exit
+	""")
+menu()
+
+pilih = raw_input("nomor : ")
+if pilih =="":
+	os.system("clear")
+	print "tidak ada pilihan??, iya terimakasih"
+	os.system("python2 tembak")
+	
+if pilih =="0":
+	os.system("clear")
+	exit()
+	
+if pilih =="1":
+	os.system("clear")
+	os.system("python2 prinsip")
+	
+if pilih =="2":
+	os.system("clear")
+	os.system("python2 mau")
+	
+if pilih =="3":
+	os.system("clear")
+	os.system("python2 nggak")
